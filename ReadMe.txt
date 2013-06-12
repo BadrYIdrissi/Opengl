@@ -1,0 +1,1 @@
+This Project is a series of small programs where i attempt to learn Opengl
