@@ -10,6 +10,13 @@
       <Platform>Win32</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\..\SuperBible5\freeglut-2.6.0\VisualStudio2008Static\Release\freeglut_static.lib" />
+    <Library Include="..\..\SuperBible5\VisualStudio2008\GLTools\Release\gltools.lib" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Triangle.cpp" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{242A4A6F-5BA9-4F05-B0E1-05FF6CB8A9EF}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
@@ -73,8 +80,6 @@
       <OptimizeReferences>true</OptimizeReferences>
     </Link>
   </ItemDefinitionGroup>
-  <ItemGroup>
-  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

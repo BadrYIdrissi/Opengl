@@ -1,0 +1,20 @@
+﻿Build started 13/06/2013 09:28:21.
+     1>Project "C:\Users\YoubiIdrissi\Badr\Informatique\Programming\C++\TutorialFiles\oglsuperbible5-read-only\VisualStudio2010\Chatper11\GSNormals\GSNormals.vcxproj" on node 2 (rebuild target(s)).
+     1>_PrepareForClean:
+         Deleting file "Debug\GSNormals.lastbuildstate".
+       InitializeBuildStatus:
+         Touching "Debug\GSNormals.unsuccessfulbuild".
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\..\Src\Chapter11\GSNormals\GSNormals.cpp
+         GSNormals.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\GSNormals.exe.embed.manifest.res" Debug\GSNormals_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\YoubiIdrissi\Badr\Informatique\Programming\C++\TutorialFiles\oglsuperbible5-read-only\Bin\Debug\GSNormals.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\GSNormals.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\YoubiIdrissi\Badr\Informatique\Programming\C++\TutorialFiles\oglsuperbible5-read-only\Bin\Debug\GSNormals.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\YoubiIdrissi\Badr\Informatique\Programming\C++\TutorialFiles\oglsuperbible5-read-only\Bin\Debug\GSNormals.lib" /MACHINE:X86 Debug\GSNormals.exe.embed.manifest.res
+         Debug\GSNormals.obj
+     1>LINK : fatal error LNK1104: cannot open file 'freeglut.lib'
+     1>Done Building Project "C:\Users\YoubiIdrissi\Badr\Informatique\Programming\C++\TutorialFiles\oglsuperbible5-read-only\VisualStudio2010\Chatper11\GSNormals\GSNormals.vcxproj" (rebuild target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00.85
