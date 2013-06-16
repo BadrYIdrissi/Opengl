@@ -15,12 +15,13 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <Library Include="..\..\SuperBible5\VisualStudio2008\GLTools\Release\gltools.lib" />
-    <Library Include="..\..\SuperBible5\freeglut-2.6.0\VisualStudio2008Static\Release\freeglut_static.lib" />
-  </ItemGroup>
-  <ItemGroup>
     <ClCompile Include="Triangle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="..\gltools.lib" />
+    <Library Include="..\freeglut.lib" />
+    <Library Include="..\freeglut_static.lib" />
   </ItemGroup>
 </Project>
