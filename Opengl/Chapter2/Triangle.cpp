@@ -29,13 +29,13 @@ void ChangeSize(int w, int h)
 void SetupRC()
 	{
 	// Blue background
-	glClearColor(0.0f, 0.0f, 1.0f, 1.0f );
+	glClearColor(0.7f, 0.7f, 0.7f, 1.0f );
     
 	shaderManager.InitializeStockShaders();
 
 	// Load up a triangle
-	GLfloat vVerts[] = { -0.5f, 0.0f, 0.0f, 
-		                  0.5f, 0.0f, 0.0f,
+	GLfloat vVerts[] = { -0.5f, -0.5f, 0.0f, 
+		                  0.5f, -0.5f, 0.0f,
 						  0.0f, 0.5f, 0.0f };
 
 	triangleBatch.Begin(GL_TRIANGLES, 3);
